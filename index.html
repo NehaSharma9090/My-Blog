@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AstroGuru Blog</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Font: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-purple-50 text-gray-800" style="font-family: 'Poppins', sans-serif;">
+<!-- Header -->
+<header class="bg-white shadow-md py-4">
+  <div class="max-w-6xl mx-auto flex justify-between items-center px-4">
+<!-- Logo -->
+<div class="flex items-center space-x-3">
+  <img src="C:\Users\HP\Desktop\Page\images\7941870 (2).png" class="h-14 w-auto md:h-20">
+  
+</div>
+    <!-- Hamburger Menu Button (mobile only) -->
+    <button id="menu-toggle" class="text-purple-700 text-2xl md:hidden focus:outline-none">
+      ☰
+    </button>
+
+    <!-- Navigation Links -->
+    <nav id="menu" class="hidden md:flex flex-col md:flex-row md:items-center md:space-x-5 mt-4 md:mt-0 text-md text-center w-full md:w-auto">
+      <a href="#" class="block px-3 py-2 text-gray-700 hover:text-purple-500">Home</a>
+      <a href="#" class="block px-3 py-2 text-gray-700 hover:text-purple-500">About</a>
+      <a href="#" class="block px-3 py-2 text-gray-700 hover:text-purple-500">Consult</a>
+      <a href="#" class="block px-3 py-2 text-gray-700 hover:text-purple-500">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Add JavaScript to toggle menu -->
+<script>
+  const toggle = document.getElementById('menu-toggle');
+  const menu = document.getElementById('menu');
+
+  toggle.addEventListener('click', () => {
+    menu.classList.toggle('hidden');
+  });
+</script>
+
+  <!-- Hero Section with Full Background -->
+  <section class="relative py-14 text-white overflow-hidden">
+    <!-- Full Background Image -->
+    <img src="images/8410971.jpg" alt="Hero Background"
+         class="absolute inset-0 w-full h-full object-cover opacity-100 z-0" />
+
+    <!-- Hero Content -->
+    <div class="relative z-10 max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center">
+      <!-- Text -->
+      <div class="md:w-1/2 text-center md:text-left mb-6 md:mb-0">
+        <h2 class="text-4xl font-bold mb-4">Discover Your Destiny</h2>
+        <p class="text-lg mb-6">Get Your Love Back | Breakup Problems | Love Marriages</p>
+        <a href="#" class="bg-white text-[#e53935] font-semibold py-2 px-6 rounded-full hover:bg-gray-100">
+          Book a Consultation
+        </a>
+      </div>
+
+      <!-- Foreground Image -->
+      <div class="md:w-1/2 flex justify-center">
+        <img src="images/hero-img.png" alt="Astrology Image"
+             class="w-64 md:w-72 rounded-2xl shadow-md border-4 border-white" />
+      </div>
+    </div>
+  </section>
+
+<!-- Blog Section -->
+<main class="max-w-6xl mx-auto py-10 px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+  
+  <!-- Blog Post 1 -->
+  <article class="bg-white p-5 rounded-xl shadow hover:shadow-lg transition">
+    <img src="images/love-problem.jpg" alt="Love Problem"
+         class="w-full h-48 object-cover rounded-lg mb-4">
+    <h3 class="text-xl font-semibold text-red-800 mb-2">🌙 Love Problem</h3>
+    <p class="text-gray-600 text-sm mb-2">Published Today</p>
+    <p class="text-gray-700">
+      Astrologer Neha Sharma specializes in love, marriage, and relationship problems.
+      Trusted by thousands for accurate predictions and effective remedies.
+    </p>
+    <a href="#" class="text-red-600 text-sm mt-3 inline-block">Read more →</a>
+  </article>
+
+  <!-- Blog Post 2 -->
+  <article class="bg-white p-5 rounded-xl shadow hover:shadow-lg transition">
+    <img src="images/breakup-problem.jpg" alt="Breakup Problem"
+         class="w-full h-48 object-cover rounded-lg mb-4">
+    <h3 class="text-xl font-semibold text-red-800 mb-2">🪐 Breakup Problem</h3>
+    <p class="text-gray-600 text-sm mb-2">Published June 27</p>
+    <p class="text-gray-700">
+      Learn how to heal after a breakup and regain emotional balance through astrological guidance.
+    </p>
+    <a href="#" class="text-red-600 text-sm mt-3 inline-block">Read more →</a>
+  </article>
+
+  <!-- Blog Post 3 -->
+  <article class="bg-white p-5 rounded-xl shadow hover:shadow-lg transition">
+    <img src="images/husband-life.jpg" alt="Husband Wife Problem"
+         class="w-full h-48 object-cover rounded-lg mb-4">
+    <h3 class="text-xl font-semibold text-red-800 mb-2">🔥 Life Problem</h3>
+    <p class="text-gray-600 text-sm mb-2">Published June 25</p>
+    <p class="text-gray-700">
+      Feeling lost in life? Your planetary positions might be guiding (or misguiding) you. Let’s realign your destiny.
+    </p>
+    <a href="#" class="text-red-600 text-sm mt-3 inline-block">Read more →</a>
+  </article>
+
+</main>
+<!-- Contact Section -->
+<section class="max-w-6xl mx-auto py-16 px-4">
+  <h2 class="text-3xl font-bold text-center text-red-800 mb-10">Connect With Neha Sharma</h2>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+    
+<!-- Instagram Contact Card -->
+<div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition flex items-center space-x-5">
+  <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" class="w-12 h-12">
+  <div>
+    <h3 class="text-xl font-semibold text-red-600">Instagram</h3>
+    <p class="text-gray-700">Follow Neha Sharma for daily astrology insights and client stories.</p>
+    <a href="https://instagram.com/astrologer.neha.sharma.ji" target="_blank" class="text-red-600 text-sm mt-2 inline-block">Visit Profile →</a>
+  </div>
+</div>
+
+<!-- WhatsApp Contact Card -->
+<div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition flex items-center space-x-5">
+  <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" class="w-12 h-12">
+  <div>
+    <h3 class="text-xl font-semibold text-green-600">WhatsApp</h3>
+    <p class="text-gray-700">Chat directly on WhatsApp for consultations or queries.</p>
+    <a href="https://wa.me/919358066422" target="_blank" class="text-red-600 text-sm mt-2 inline-block">Start Chat →</a>
+  </div>
+</div>
+</section>
+  <!-- Footer -->
+  <footer class="bg-white py-6 mt-10 text-center text-sm text-gray-500">
+    © 2025 Neha Sharma. All rights reserved | <a href="#" class="text-purple-600">Privacy Policy</a>
+  </footer>
+</body>
+</html>
